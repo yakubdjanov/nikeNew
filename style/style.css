@@ -30,6 +30,20 @@ body {
     display: flex;
 }
 
+.menu__link {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4d4d4d;
+    padding: 22px 24px 22px 16px;
+    transition: 0.5s;
+    display: block;
+}
+
+.menu__link:hover {
+    background: #515151;
+    color: #f7f7f7;
+}
+
 .header__info {
     flex-grow: 1;
     display: flex;
