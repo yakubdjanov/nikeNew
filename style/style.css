@@ -51,3 +51,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 100px;
+    background: lime;
+    color: #fff;
+}
