@@ -59,6 +59,24 @@ section {
     justify-content: center;
     font-family: cursive;
     font-size: 100px;
+    flex-direction: column;
     background: lime;
+    color: #fff;
+    padding: 0 50px;
+}
+
+section p {
+    font-size: 36px;
+    text-align: center;
+}
+
+.footer {
+    background: linear-gradient(90deg, #000, dodgerblue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer a {
     color: #fff;
 }
